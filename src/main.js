@@ -120,7 +120,6 @@ const loadMore = async () => {
     });
   }
 
-  // Smooth scroll after loading more images
   const { height: cardHeight } =
     gallery.firstElementChild.getBoundingClientRect();
   window.scrollBy({
